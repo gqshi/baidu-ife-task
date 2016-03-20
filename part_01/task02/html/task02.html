@@ -3,79 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <title>任务二</title>
+<style rel="stylesheet" type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    background-color: #dedede;
+}
+
+header {
+    background-color: #333;
+    height: 100px;
+    width: 100%;
+}
+.header-logo a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-logo a:hover {
+    text-decoration: underline;
+}
+    .header-logo img {
+        height: 80px;
+        margin: 10px 0 0 100px;
+    }
+    .header-nav {
+        margin: 0 100px 0 0;
+        padding: 0;
+        float: right;
+        height: 100px;
+        line-height: 100px;
+    }
+    .header-nav li {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    article {
+        width: 85%;
+        padding: 30px;
+        margin: 30px auto;
+        border: thin solid #CBCBCB;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 3px #AAA;
+    }
+    p {
+        text-indent: 2em;
+    }
+    .list li {
+        list-style-type: none;
+        padding: 5px;
+    }
+.picture {
+    border: thin solid #CBCBCB;
+    width: 300px;
+    height: 220px;
+    margin: 20px 0 25px 25px;
+}
+.picture p {
+    width: 300px;
+    text-align: center;
+}
+    .picture img{
+        width: 240px;
+        height: 140px;
+        margin: 0 30px 20px 30px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    table th {
+        background-color: #333333;
+        color:#fff;
+        text-align: left;
+    }
+
+</style>
 </head>
 <body>
-<h1>网站一级标题</h1>
-<nav>
-    <ul>
-        <li><a href="#">导航链接一</a></li>
-        <li><a href="#">导航链接二</a></li>
-        <li><a href="#">导航链接三</a></li>
-        <li><a href="#">导航链接四</a></li>
-    </ul>
-</nav>
-<h2>文章一级标题</h2>
-<h2>文章二级标题</h2>
-<p><span>文章作者</span>&nbsp;<span>文章发表时间</span></p>
-<p>
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，换行了<br />
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，<a href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落， 换行了<br />
-    这是一个很长很长的段落，<b>这里有个粗体</b>这是一个很长很长的段落，这是一个很长很长的段落,<del>这是已删除的文字</del>这是一个很长很长的段落，这是一个很长<br />
-    很长的段落，这是一个很长很长的段落，<i>这是一部分斜体文字</i>这是一个很长很长的段落，这是一个很长很长的段落。
-</p>
-<img src="../images/jump.jpg" />
-<p>
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，换行了<br />
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，这是一个<a target="_blank" href="http://ife.baidu.com">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，<br />
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
-</p>
-<h2>另一篇文章一级标题</h2>
-<h2>文章二级标题</h2>
-<p><span>文章作者</span>&nbsp;<span>文章发表时间</span></p>
-<p>
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，换行了<br />
-    这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
-    的段落，<a href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落， 换行了<br />
-    这是一个很长很长的段落，<b>这里有个粗体</b>这是一个很长很长的段落，这是一个很长很长的段落,<del>这是已删除的文字</del>这是一个很长很长的段落，这是一个很长<br />
-    很长的段落，这是一个很长很长的段落，<i>这是一部分斜体文字</i>这是一个很长很长的段落，这是一个很长很长的段落。
-</p>
-<img src="../images/jump.jpg" title="跳跃" alt="jump" />
-<div>
-    <ul>
-        <li>列表项目一</li>
-        <li>列表项目二</li>
-        <li>列表项目三</li>
-        <li>列表项目四</li>
-    </ul>
-</div>
-<h2>图片</h2>
-<dl>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-    <dd>好看的图片</dd>
-    <dd><img src="../images/jump.jpg" title="跳跃" alt="jump" /></dd>
-</dl>
+<header>
+    <div class="header-logo">
+    <a href="http://www.baidu.com" target="_blank">
+        <img src="../images/logo.png" title="baidu" alt="baidu-logo" />
+    </a>
 
+    <nav class="header-nav">
+        <ul>
+            <li><a href="#">导航链接一</a></li>
+            <li><a href="#">导航链接二</a></li>
+            <li><a href="#">导航链接三</a></li>
+            <li><a href="#">导航链接四</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<article>
+    <h2>文章一级标题</h2>
+    <h2>文章二级标题</h2>
+    <h3><span>文章作者</span>&nbsp;<span>文章发表时间</span></h3>
+    <p>
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，换行了<br />
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，<a href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落， 换行了<br />
+        这是一个很长很长的段落，<b>这里有个粗体</b>这是一个很长很长的段落，这是一个很长很长的段落,<del>这是已删除的文字</del>这是一个很长很长的段落，这是一个很长<br />
+        很长的段落，这是一个很长很长的段落，<i>这是一部分斜体文字</i>这是一个很长很长的段落，这是一个很长很长的段落。
+    </p>
+    <img src="../images/jump.jpg" />
+    <p>
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，换行了<br />
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，这是一个<a target="_blank" href="http://ife.baidu.com">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，<br />
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+    </p>
+</article>
+
+<article>
+    <h2>另一篇文章一级标题</h2>
+    <h2>文章二级标题</h2>
+    <h3><span>文章作者</span>&nbsp;<span>文章发表时间</span></h3>
+    <p>
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，换行了<br />
+        这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长<br />
+        的段落，<a href="http://ife.baidu.com">这是一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落， 换行了<br />
+        这是一个很长很长的段落，<b>这里有个粗体</b>这是一个很长很长的段落，这是一个很长很长的段落,<del>这是已删除的文字</del>这是一个很长很长的段落，这是一个很长<br />
+        很长的段落，这是一个很长很长的段落，<i>这是一部分斜体文字</i>这是一个很长很长的段落，这是一个很长很长的段落。
+    </p>
+    <img src="../images/jump.jpg" title="跳跃" alt="jump" />
+    <div class="list">
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+            <li>列表项目四</li>
+        </ul>
+    </div>
+</article>
+
+<article>
+
+    <h2>图片</h2>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+    <div class="picture">
+        <p>好看的图片</p>
+        <img src="../images/jump.jpg" title="jump" alt="jump" />
+    </div>
+
+
+</article>
+
+<article>
 <h2>最后一篇文章一级标题</h2>
 <h2>文章二级标题</h2>
-<p>文章作者文章发表时间</p>
+<h3>文章作者文章发表时间</h3>
 <div>
     <ol>
         <li>排名1</li>
@@ -115,6 +228,9 @@
         <td colspan="2">1000</td>
     </tr>
 </table>
+</article>
+
+<article>
 <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 <h3>侧栏注册窗口标题</h3>
 <form method="post" action="http://ife.baidu.com">
@@ -146,6 +262,7 @@
         <input type="submit" value="确认提交" />
     </label>
 </form>
-<footer> 版权符号©</footer>
+</article>
+<footer> 版权符号&copy;</footer>
 </body>
 </html>
